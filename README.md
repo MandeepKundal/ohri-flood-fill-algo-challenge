@@ -27,7 +27,7 @@ Let's look at how to get the code running.
 - [npm version = 7.23.0](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) must be installed.
 
 ### Starting the web application
-https://github.com/MandeepKundal/ohri-flood-fill-algo-challenge.git
+
 The [repository](https://github.com/MandeepKundal/ohri-flood-fill-algo-challenge.git) is available on GitHub. To clone it open a terminal to a directory of your
 choosing and run the following command:
 
