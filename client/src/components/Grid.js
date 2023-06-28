@@ -10,7 +10,7 @@ const Grid = ({ floodFillColor, handleFloodFillColorChange, grid, handleCellClic
                             key={colIndex}
                             className={`pixel ${color}`}
                             onClick={() => handleCellClick(rowIndex, colIndex)} // Handle cell click event
-                            style={{ backgroundColor: color }} // Set background color and cell size
+                            style={{ backgroundColor: color }} // Set background color
                         ></td>
                         ))}
                     </tr>
