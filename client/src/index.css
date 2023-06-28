@@ -15,14 +15,54 @@ h1 {
   color: #F05F40;
 }
 
-h5 {
+small {
   font-style: italic;
 }
 
 .footer {
-  padding: 25px;
+  padding: 10px;
 }
 
 .myName {
   color: #F05F40;
+}
+
+/*Buttons*/
+.btn-outline {
+  color: #F05F40;
+  font-size: 20px;
+  border: solid 2px #F05F40;
+  border-radius: 7px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background: #F05F40;
+  border: solid 2px #F05F40;
+}
+
+/* Grid */
+.grid {
+  width: 550px;
+  height: 550px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.grid td {
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Input Form */
+.rowsDiv {
+  margin: 5px;
+}
+.colsDiv {
+  margin: 5px;
 }
